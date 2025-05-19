@@ -24,3 +24,25 @@ h2{
 #algum-titulo {
     border-bottom: 3px solid green;
 }
+/* hex */
+.hex{
+    color:#9b8d99 ;
+}
+
+/*rgb*/
+
+.rgb {
+  color: rgb(255, 0, 0);  
+}
+
+.rgb-mixed {
+    color: rgb(121, 27, 13);
+}
+
+.rgba{
+    color: rgba(200, 99, 145, 0.3);
+}
+
+.hsl{
+    color: hsl(30, 60%, 55%);
+}
