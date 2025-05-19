@@ -1,0 +1,26 @@
+/*classes*/
+
+.paragrafo{
+    background-color: #000;
+    color: aqua;
+    padding: 5px;
+
+}
+
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+/* ordem da regras */
+h2{
+    border-bottom: 2px solid red;
+}
+.titulo {
+    border-bottom: 2px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 3px solid green;
+}
