@@ -53,6 +53,10 @@ console.log(!true)
 // aqui vai da false, msm tendo o true ali, pois o sinal de exclamação ele inverte o resultado.
 
 
+// empty values
+console.log(typeof null, typeof undefined);
+
+
 
 
 
