@@ -39,3 +39,4 @@ console.log(Math.floor(6.98))    //  arredonda pra baixo
 console.log(Math.ceil(12.1))    //  arredonda pra cima
 
 
+// Estruturas de controle;
