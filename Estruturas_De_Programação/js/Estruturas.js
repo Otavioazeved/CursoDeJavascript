@@ -40,3 +40,45 @@ console.log(Math.ceil(12.1))    //  arredonda pra cima
 
 
 // Estruturas de controle;
+//if
+const m = 10;
+if(m > 5){
+    console.log("m é maior que 5");
+}
+
+const user = "otavio";
+if(user === "otavio"){
+    console.log(`ola,${user} boa noite`)
+}else{
+    console.log("ola estranho")
+}
+
+const logado = false;
+
+if(logado){
+    console.log("esta autenticado")
+}else{
+    console.log("nao esta autenticado")
+}
+
+
+const p = 10;
+const t = 12;
+
+if(p > 6 && t <= 12){
+    console.log("os numeros  sao altos")
+}else{
+    console.log("os numeros n sao altos")
+}
+
+
+// else if
+
+if(4 < 1 ){
+    console.log("teste")
+}else if(4 < 2){
+    console.log("outro teste")
+}else if(5 > 1){
+    console.log("agora sim !")
+}
+
