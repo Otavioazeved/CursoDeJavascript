@@ -1,5 +1,7 @@
 // variaveis
 
+//const { forwardRef } = require("react");
+
 let nome = "otavio";
 
 console.log(nome)
@@ -81,4 +83,63 @@ if(4 < 1 ){
 }else if(5 > 1){
     console.log("agora sim !")
 }
+
+// Estruturas de Repetição
+
+/*let toti = 10;
+
+while(toti < 15){
+    console.log(` repetindo ${toti}`);
+   toti++;
+
+} 
+   */
+
+/*let o = 10;
+
+do {
+    console.log(`o valor de o: ${o}`);
+    o++;
+} while(o > 1);
+ */
+
+// for
+
+for(let u = 2; u < 10; u++){
+    if(u * 2 > 10 ){
+        console.log("maior que 10 ")
+    }else{
+        console.log(`Menor que ${u}`)
+    }
+}
+
+// continue
+
+for(let s = 1; s< 10; s++){
+    //operador de resto == %
+    if(s % 2 === 0){
+        console.log(" esse numero é par")
+        continue
+    }
+    console.log(s)
+}
+
+// switch
+const job = "a";
+
+switch(job){
+    case "programador":
+        console.log("voce é programdor");
+        break;
+    case "advogado":
+        console.log("voce é advogado");
+        break;
+    case "Engenheiro":
+        console.log("voce é engenheiro");
+        break;
+    default:
+         console.log("profissão não encontrada") ;  
+
+}
+
 
