@@ -46,3 +46,20 @@ h2{
 .hsl{
     color: hsl(30, 60%, 55%);
 }
+
+/* cor de fundo */
+
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgba(red, green, blue, alpha);
+    color: #f865;
+}
+
+.bg-opacity{
+    background-color: green;
+    opacity: 0.8;
+}
