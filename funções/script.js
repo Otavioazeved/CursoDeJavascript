@@ -24,4 +24,23 @@ const resultado = soma(a, b);
 console.log(resultado);
 
 
+// escopo global e local
+
+let numero = 10;
+
+function teste() {
+    let numero = 20;
+    console.log(numero); // ?
+}
+
+let number = 10;
+
+function teste(){
+    let number = 20;
+    console.log(number);
+}
+teste(); // aqui aparece 20 por ser escopo local.
+console.log(number); // aqui aparece 10 por ser fora do bloco, escopo global.
+
+
 
