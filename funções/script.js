@@ -43,4 +43,28 @@ teste(); // aqui aparece 20 por ser escopo local.
 console.log(number); // aqui aparece 10 por ser fora do bloco, escopo global.
 
 
+// arrow function
 
+const testeArrow = () =>{
+    console.log("esta é uma arrow function")
+}
+
+testeArrow();
+
+const ParOuImpar =(n) => {
+    if(n %2 === 0){
+        console.log("par");
+    }else{
+        console.log("impar")
+    }
+
+
+};
+ParOuImpar(5);
+ParOuImpar(6);
+
+const RaizQuaadrada = (x) => {
+    return x * x
+};
+
+console.log(RaizQuaadrada(4));
